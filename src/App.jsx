@@ -11,7 +11,6 @@ function App() {
         Coffee Length : {coffees.length}
       </h1>
     <Link to='/addCoffee'><button className="btn btn-primary mr-5">Add Coffee</button></Link>
-    <Link to='/updateCoffee'><button className="btn btn-success">Update Coffee</button></Link>
    <div className="grid md:grid-cols-2 gap-4">
    {coffees.map((coffee) => (
         <CoffeeCard 
